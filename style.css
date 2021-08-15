@@ -1,0 +1,40 @@
+#body{
+	margin: auto;
+}
+
+#calculator{
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#inp{
+	height: 80px;
+}
+
+.button{
+	width: 17% !important;
+	margin: 1%;
+	height: 80px;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+#ac{
+	width: 36% !important;
+}
+
+#calculate{
+	width: 94% !important;
+}
+
+.white{
+	color: white !important;
+	font-size: 20px !important;
+}
+
+.blue{
+	color: blue !important;
+	font-size: 20px !important;
+}
