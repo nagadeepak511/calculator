@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default fixed-top">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand"><i class="fa fa-calculator greenyellow" aria-hidden="true"></i> Calculator</a>
+                </div>
+            </nav>
+        </header>
+        <div id="instruction" class="jumbotron container">
+            <h1>Basic calculator</h1>
+            <p class="faded">This is a simple calculator made using JS</p>
+            <p class="faded">The calculator can evaluate mathematical expressions with + or - or * or / as operators</p>
+            <div id="launch-btn"><button class="btn btn-primary btn-lg" id="launch" onclick="toggle(document.getElementById('instruction'), document.getElementById('calculator'))" >LAUNCH NOW</button></div>
+        </div>
+        <div id="calculator" class="container">
+            <div class="form-group" id="inp-box">
+                <label for="" class="lbl faded">Calculate</label>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control expression" placeholder="1rst number" id="n1">
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control expression col-md-6" placeholder="2nd number" id="n2">
+                    </div>
+                </div>
+                <div id="btns">
+                    <button class="btn btn-success btn-lg button" onclick="add(document.getElementById('n1').value, document.getElementById('n2').value)">Add</button>
+                    <button class="btn btn-success btn-lg button" onclick="subtract(document.getElementById('n1').value, document.getElementById('n2').value)">Subtract</button>
+                    <button class="btn btn-success btn-lg button" onclick="multiply(document.getElementById('n1').value, document.getElementById('n2').value)">Multiply</button>
+                    <button class="btn btn-success btn-lg button" onclick="divide(document.getElementById('n1').value, document.getElementById('n2').value)">Divide</button>
+                    
+                    <p class="white faded">After entering two numbers, press on suitable button to evaluate.</p>
+
+                </div>
+                <h1 class="lbl" id="ans">The ans is: - -</h1>
+                <div>
+                    <a class="btn btn-danger btn-lg" href="index.html">Go back</a>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

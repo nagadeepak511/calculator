@@ -1,0 +1,107 @@
+body{
+    margin: auto;
+    /* background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #1c2538 !important;
+}
+
+.navbar{
+    background-color: #1c2538 !important;
+    border: none !important;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    color: grey;
+}
+
+.navbar-brand:hover{
+    color: white !important;
+}
+
+#instruction{
+    background-color: #1c2538;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.faded{
+    opacity: 0.75;
+}
+
+.textShadow{
+    box-shadow: 0px 3px ;
+}
+
+.greenyellow{
+    color: greenyellow !important;
+}
+
+.jumbotron > h1{
+    font-size: larger;
+    font-weight: 800;
+}
+
+#launch-btn{
+    margin-bottom: 32px !important;
+}
+
+#launch{
+    background-color: #a0ec07 !important;
+    color: #1c2538 !important;
+    padding: 24px;
+    font-size: medium;
+}
+
+#launch :hover{
+    background-color: #a0ec07 !important;
+}
+
+#calculator{
+    background-color: #1c2538;
+    visibility: hidden;
+    margin: auto;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#inp-box{
+    margin-top: 16px;
+}
+
+.button{
+    margin-top: 12px !important;
+    margin-right: 12px !important;
+    background-color: #a0ec07 !important;
+    color: #1c2538 !important;
+}
+
+.lbl{
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    font-size: 40px;
+}
+
+#ans{
+    font-size: 30px;
+    margin-top: 12px;
+    opacity: 1;
+}
+
+.expression{
+    background-color: #1c2538 !important;
+    font-size: 30px !important;
+    font-family: monospace;
+    color: white !important;
+    height: 40px;
+}
+
+.white{
+    color: white;
+    margin-top: 12px;
+    font-size: 30px;
+}
